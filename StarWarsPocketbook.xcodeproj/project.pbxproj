@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0B66D5CE1652FFEA20B94D /* Pods_StarWarsPocketbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A891F7C17840D985B46F0C /* Pods_StarWarsPocketbook.framework */; };
+		F962490E2202F1B10032287D /* FadeEnabledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F962490D2202F1B10032287D /* FadeEnabledButton.swift */; };
+		F9B29A752202358800D3032D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A742202358800D3032D /* AppDelegate.swift */; };
+		F9B29A772202358800D3032D /* PersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A762202358800D3032D /* PersonVC.swift */; };
+		F9B29A7A2202358800D3032D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B29A782202358800D3032D /* Main.storyboard */; };
+		F9B29A7C2202358900D3032D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B29A7B2202358900D3032D /* Assets.xcassets */; };
+		F9B29A7F2202358900D3032D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B29A7D2202358900D3032D /* LaunchScreen.storyboard */; };
+		F9B29A8E220235F200D3032D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A8D220235F200D3032D /* Constants.swift */; };
+		F9B29A922202360D00D3032D /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9B29A8F2202360D00D3032D /* Starjout.ttf */; };
+		F9B29A932202360D00D3032D /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9B29A902202360D00D3032D /* Starjedi.ttf */; };
+		F9B29A942202360D00D3032D /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9B29A912202360D00D3032D /* Starjhol.ttf */; };
+		F9B29A962202373300D3032D /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A952202373300D3032D /* PersonApi.swift */; };
+		F9B29A982202375B00D3032D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A972202375B00D3032D /* Person.swift */; };
+		F9B29A9A220237F200D3032D /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A99220237F200D3032D /* Homeworld.swift */; };
+		F9B29A9C220237FF00D3032D /* HomeworldApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A9B220237FF00D3032D /* HomeworldApi.swift */; };
+		F9B29A9E22023CB200D3032D /* HomeworldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B29A9D22023CB200D3032D /* HomeworldVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6168D8CA98CDFBE1D58E1701 /* Pods-StarWarsPocketbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsPocketbook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsPocketbook/Pods-StarWarsPocketbook.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A891F7C17840D985B46F0C /* Pods_StarWarsPocketbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsPocketbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2F7AD3AC139CB922A45587 /* Pods-StarWarsPocketbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsPocketbook.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsPocketbook/Pods-StarWarsPocketbook.release.xcconfig"; sourceTree = "<group>"; };
+		F962490D2202F1B10032287D /* FadeEnabledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledButton.swift; sourceTree = "<group>"; };
+		F9B29A712202358800D3032D /* StarWarsPocketbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsPocketbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B29A742202358800D3032D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9B29A762202358800D3032D /* PersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonVC.swift; sourceTree = "<group>"; };
+		F9B29A792202358800D3032D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9B29A7B2202358900D3032D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9B29A7E2202358900D3032D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9B29A802202358900D3032D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B29A8D220235F200D3032D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9B29A8F2202360D00D3032D /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		F9B29A902202360D00D3032D /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		F9B29A912202360D00D3032D /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		F9B29A952202373300D3032D /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		F9B29A972202375B00D3032D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F9B29A99220237F200D3032D /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		F9B29A9B220237FF00D3032D /* HomeworldApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldApi.swift; sourceTree = "<group>"; };
+		F9B29A9D22023CB200D3032D /* HomeworldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9B29A6E2202358800D3032D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0B66D5CE1652FFEA20B94D /* Pods_StarWarsPocketbook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8526E1E40C9DA7760099F1B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A891F7C17840D985B46F0C /* Pods_StarWarsPocketbook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB66023FBA46E2A1A8F4F5B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6168D8CA98CDFBE1D58E1701 /* Pods-StarWarsPocketbook.debug.xcconfig */,
+				DB2F7AD3AC139CB922A45587 /* Pods-StarWarsPocketbook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9B29A682202358800D3032D = {
+			isa = PBXGroup;
+			children = (
+				F9B29A732202358800D3032D /* StarWarsPocketbook */,
+				F9B29A722202358800D3032D /* Products */,
+				BB66023FBA46E2A1A8F4F5B0 /* Pods */,
+				8526E1E40C9DA7760099F1B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9B29A722202358800D3032D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A712202358800D3032D /* StarWarsPocketbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9B29A732202358800D3032D /* StarWarsPocketbook */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A89220235BE00D3032D /* Services */,
+				F9B29A88220235B800D3032D /* Model */,
+				F9B29A87220235B000D3032D /* View */,
+				F9B29A862202359600D3032D /* Controller */,
+				F9B29A742202358800D3032D /* AppDelegate.swift */,
+				F9B29A782202358800D3032D /* Main.storyboard */,
+				F9B29A7B2202358900D3032D /* Assets.xcassets */,
+				F9B29A8C220235E700D3032D /* Utils */,
+				F9B29A8A220235DA00D3032D /* Resources */,
+				F9B29A7D2202358900D3032D /* LaunchScreen.storyboard */,
+				F9B29A802202358900D3032D /* Info.plist */,
+			);
+			path = StarWarsPocketbook;
+			sourceTree = "<group>";
+		};
+		F9B29A862202359600D3032D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A762202358800D3032D /* PersonVC.swift */,
+				F9B29A9D22023CB200D3032D /* HomeworldVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9B29A87220235B000D3032D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F962490D2202F1B10032287D /* FadeEnabledButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9B29A88220235B800D3032D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A972202375B00D3032D /* Person.swift */,
+				F9B29A99220237F200D3032D /* Homeworld.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9B29A89220235BE00D3032D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A952202373300D3032D /* PersonApi.swift */,
+				F9B29A9B220237FF00D3032D /* HomeworldApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9B29A8A220235DA00D3032D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A8B220235E100D3032D /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F9B29A8B220235E100D3032D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A902202360D00D3032D /* Starjedi.ttf */,
+				F9B29A912202360D00D3032D /* Starjhol.ttf */,
+				F9B29A8F2202360D00D3032D /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F9B29A8C220235E700D3032D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F9B29A8D220235F200D3032D /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9B29A702202358800D3032D /* StarWarsPocketbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B29A832202358900D3032D /* Build configuration list for PBXNativeTarget "StarWarsPocketbook" */;
+			buildPhases = (
+				DBE7A79AC95CF7F6B024DC02 /* [CP] Check Pods Manifest.lock */,
+				F9B29A6D2202358800D3032D /* Sources */,
+				F9B29A6E2202358800D3032D /* Frameworks */,
+				F9B29A6F2202358800D3032D /* Resources */,
+				33710366AD914A6B9C35BC40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWarsPocketbook;
+			productName = StarWarsPocketbook;
+			productReference = F9B29A712202358800D3032D /* StarWarsPocketbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9B29A692202358800D3032D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ihsan Akbay";
+				TargetAttributes = {
+					F9B29A702202358800D3032D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F9B29A6C2202358800D3032D /* Build configuration list for PBXProject "StarWarsPocketbook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9B29A682202358800D3032D;
+			productRefGroup = F9B29A722202358800D3032D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9B29A702202358800D3032D /* StarWarsPocketbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9B29A6F2202358800D3032D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B29A922202360D00D3032D /* Starjout.ttf in Resources */,
+				F9B29A942202360D00D3032D /* Starjhol.ttf in Resources */,
+				F9B29A7F2202358900D3032D /* LaunchScreen.storyboard in Resources */,
+				F9B29A7C2202358900D3032D /* Assets.xcassets in Resources */,
+				F9B29A932202360D00D3032D /* Starjedi.ttf in Resources */,
+				F9B29A7A2202358800D3032D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33710366AD914A6B9C35BC40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsPocketbook/Pods-StarWarsPocketbook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsPocketbook/Pods-StarWarsPocketbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE7A79AC95CF7F6B024DC02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWarsPocketbook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9B29A6D2202358800D3032D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B29A982202375B00D3032D /* Person.swift in Sources */,
+				F9B29A772202358800D3032D /* PersonVC.swift in Sources */,
+				F9B29A9C220237FF00D3032D /* HomeworldApi.swift in Sources */,
+				F9B29A752202358800D3032D /* AppDelegate.swift in Sources */,
+				F9B29A9A220237F200D3032D /* Homeworld.swift in Sources */,
+				F9B29A8E220235F200D3032D /* Constants.swift in Sources */,
+				F962490E2202F1B10032287D /* FadeEnabledButton.swift in Sources */,
+				F9B29A9E22023CB200D3032D /* HomeworldVC.swift in Sources */,
+				F9B29A962202373300D3032D /* PersonApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9B29A782202358800D3032D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B29A792202358800D3032D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9B29A7D2202358900D3032D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B29A7E2202358900D3032D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9B29A812202358900D3032D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9B29A822202358900D3032D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9B29A842202358900D3032D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6168D8CA98CDFBE1D58E1701 /* Pods-StarWarsPocketbook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KSDVD249;
+				INFOPLIST_FILE = StarWarsPocketbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanakbay.StarWarsPocketbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9B29A852202358900D3032D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2F7AD3AC139CB922A45587 /* Pods-StarWarsPocketbook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34KSDVD249;
+				INFOPLIST_FILE = StarWarsPocketbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihsanakbay.StarWarsPocketbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9B29A6C2202358800D3032D /* Build configuration list for PBXProject "StarWarsPocketbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B29A812202358900D3032D /* Debug */,
+				F9B29A822202358900D3032D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B29A832202358900D3032D /* Build configuration list for PBXNativeTarget "StarWarsPocketbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B29A842202358900D3032D /* Debug */,
+				F9B29A852202358900D3032D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9B29A692202358800D3032D /* Project object */;
+}
